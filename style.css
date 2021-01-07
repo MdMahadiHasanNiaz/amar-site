@@ -1,0 +1,73 @@
+boddy{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 38px;
+}
+p{
+    font-size: 24px;
+    color: dimgray;
+    
+}
+.orange-highlight{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 8px;
+    background-image: linear-gradient(65deg, dimgray, orange);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.hire-download{
+}
+.middle{
+    text-align: center;
+}
+
+.box{
+    box-sizing: border-box;
+}
+.bame-capa{
+    width: 30%;
+    float: left;
+    margin-left: 34px;
+}
+.bame-capa img{
+    height: 320px;
+    width: 100%;
+}
+.head-boro{
+    font-size: 28px;
+}
+#bgimg{
+    background-image: url(imgs/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.margin{
+    border: 10px solid yellow;
+}
+footer p{
+    text-align: center;
+}
+footer h3{
+    text-align: center;
+    font-size: 26px;
+}
