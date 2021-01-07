@@ -80,15 +80,66 @@ p{
     background-image:  url(imgs/biography-bg.png);
     background-repeat: no-repeat;
 }
+.height{
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 80px;
+    
+}
+.forth-section{
+    height: 200px;
+    border-radius: 50px;
+    margin: 65px 300px;
+}
+.adjust{
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+h4{
+    
+    font-size:60px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding-top: 65px;
+    
+    
+}
+h5{
+    padding-left: 200px;
+    padding-top: 75px;
+}
 footer p{
     text-align: center;
 }
-footer h3{
+footer h2{
     text-align: center;
-    font-size: 26px;
 }
-.img-add{
-    border: 1px solid gray;
-    background-image: url(imgs/bg.png);
-    background-repeat: no-repeat;
+#shadow{
+    box-shadow: 10px 10px 800px rgba(93, 105, 233, 1);
+}
+#ektu-jhal{
+    border-right: 8px solid;
+    border-top: 8px solid;
+    border-image: linear-gradient(180deg, orange, pink);
+    border-image-slice: 1;
+}
+#ektu-tok{
+    border-left: 8px solid;
+    border-top: 8px solid;
+    border-image: linear-gradient(180deg, cyan, gray);
+    border-image-slice: 1;
+}
+#misti{
+    border-top: 8px dotted;
+    border-right: 8px dotted;
+   
+    border-left: 8px dotted;
+    border-image: linear-gradient(180deg, orange, gray);
+    border-image-slice: 1;
 }
