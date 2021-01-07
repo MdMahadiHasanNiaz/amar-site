@@ -1,7 +1,6 @@
 boddy{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    padding-left: 0;
 }
 
 h1{
@@ -35,8 +34,7 @@ p{
 .half-width img{
     width: 100%;
 }
-.hire-download{
-}
+
 .middle{
     text-align: center;
 }
@@ -61,8 +59,26 @@ p{
     background-repeat: no-repeat;
     background-position: center;
 }
-.margin{
-    border: 10px solid yellow;
+
+.first-portion{
+    border: 1px solid gray;
+    background-image: url(imgs/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.second-portion{
+    border: 1px solid gray;
+    background-image: url(imgs/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.third-portion{
+    border: 1px solid gray;
+    background-image: url(imgs/header-bg.png);
+    background-repeat: no-repeat;
+}
+.forth-portion{
+    border: 1px solid gray;
+    background-image:  url(imgs/biography-bg.png);
+    background-repeat: no-repeat;
 }
 footer p{
     text-align: center;
@@ -70,4 +86,9 @@ footer p{
 footer h3{
     text-align: center;
     font-size: 26px;
+}
+.img-add{
+    border: 1px solid gray;
+    background-image: url(imgs/bg.png);
+    background-repeat: no-repeat;
 }
